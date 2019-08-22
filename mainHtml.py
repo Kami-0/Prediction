@@ -11,7 +11,7 @@ def generateBody (header,parag):
 	body =f"<h1>{header}</h1>"
 	for i in parag:
 		body+=f"<p>{i}</p>"
-	body+='<hr/><a href ="about.html">О реализации</a>'
+	body+='<hr/><a href ="about.html">О реализации</a>&nbsp;<p><a href ="ksu.html">Для моей Ксюши ღ</a></p>'
 	return f"<body>{body}</body>"
 
 #Преобразование в html код Page
